@@ -1,0 +1,16 @@
+.homeWrapper {
+}
+
+.test1 {
+    width: 100%;
+    height: 800px;
+    background-color: #F2F4F6;
+    padding: 0 10%;
+}
+
+.test2 {
+    width: 100%;
+    height: 1800px;
+    background-color: violet;
+    padding: 0 10%;
+}

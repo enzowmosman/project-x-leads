@@ -1,8 +1,8 @@
 .HomeFirstBlock__Wrapper {
     background-color: #F2F4F6;
-    padding: 3% 10% 0 10%;
+    padding: 32px 10% 32px 10%;
     width: 100%;
-    height: 650px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,31 +20,29 @@
 .HomeFirstBlock__Container {
     display: flex;
     align-items: center;
+    margin: 32px 0 32px 0;
     justify-content: center;
-    margin-top: 12px;
     flex-direction: column;
     width: 80%;
 }
 
 .HomeFirstBlock__Title {
-    font-size: 65px;
-    line-height: 72px;
+    font-size: 64px;
+    line-height: 68px;
     font-weight: 800;
-    color: #2d3237;
+    color: #333;
     text-align: center;
     margin-bottom: 24px;
 }
 
 .HomeFirstBlock__Desc {
-    color: #8e929b;
+    color: #888;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 26px;
     text-align: center;
 }
 
 .HomeFirstBlock__ButtonContainer {
-    margin-top: 18px;
-    height: 100px;
     position: relative;
 }
 
@@ -52,9 +50,9 @@
     font-weight: 300;
     position: absolute;
     left: -68px;
-    top: -20px;
-    transform: rotate(143deg) scaleX(-1);
-    color: #8e929b;
+    top: -12px;
+    transform: rotate(136deg) scaleX(-1);
+    color: #888;
     font-size: 50px;
 }
 
@@ -67,7 +65,8 @@
     color: rgba(0,0,0,.75);
     border-radius: 6px;
     font-weight: 400;
-    border: 2px solid rgba(0,0,0,.25);
+    border: 2px solid #ddd;
+    background-color: #fff;
     outline: 0;
 }
 
@@ -78,7 +77,7 @@
 .HomeFirstBlock__Button {
     position: absolute;
     height: 46px;
-    width: 36%;
+    width: 32%;
     right: 0;
     text-align: center;
 }

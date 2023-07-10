@@ -27,7 +27,7 @@ export default function HomeFirstBlock() {
         </span>
           <div className={'HomeFirstBlock__ButtonInput'}>
               <input className={'HomeFirstBlock__EmailInput'} />
-              <Button className={'HomeFirstBlock__Button'}>Start now -></Button>
+              <Button className={'HomeFirstBlock__Button'}>{`Start now ->`}</Button>
           </div>
       </div>
     </div>

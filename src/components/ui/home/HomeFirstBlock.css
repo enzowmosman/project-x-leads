@@ -1,6 +1,84 @@
-.HomeFirstBlockWrapper {
+.HomeFirstBlock__Wrapper {
     background-color: #F2F4F6;
-    padding: 0 10%;
+    padding: 3% 10% 0 10%;
     width: 100%;
     height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomeFirstBlock__Image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    width: 50%;
+    height: 50%;
+}
+
+.HomeFirstBlock__Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    flex-direction: column;
+    width: 80%;
+}
+
+.HomeFirstBlock__Title {
+    font-size: 65px;
+    line-height: 72px;
+    font-weight: 800;
+    color: #2d3237;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.HomeFirstBlock__Desc {
+    color: #8e929b;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.HomeFirstBlock__ButtonContainer {
+    margin-top: 18px;
+    height: 100px;
+    position: relative;
+}
+
+.HomeFirstBlock__IndicationIcon {
+    font-weight: 300;
+    position: absolute;
+    left: -68px;
+    top: -20px;
+    transform: rotate(143deg) scaleX(-1);
+    color: #8e929b;
+    font-size: 50px;
+}
+
+.HomeFirstBlock__EmailInput {
+    padding: 5px 190px 5px 15px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 34px;
+    width: 99%;
+    color: rgba(0,0,0,.75);
+    border-radius: 6px;
+    font-weight: 400;
+    border: 2px solid rgba(0,0,0,.25);
+    outline: 0;
+}
+
+.HomeFirstBlock__ButtonInput {
+    display: flex;
+}
+
+.HomeFirstBlock__Button {
+    position: absolute;
+    height: 46px;
+    width: 36%;
+    right: 0;
+    text-align: center;
 }

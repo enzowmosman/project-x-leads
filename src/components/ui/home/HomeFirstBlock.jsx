@@ -38,17 +38,17 @@ export default function HomeFirstBlock() {
             <span className="material-symbols-outlined HomeFirstBlock__FreeDoneIcon">
               done
             </span>
-            <spam className={"HomeFirstBlock__FreeDesc"}>
+            <span className={"HomeFirstBlock__FreeDesc"}>
               Teste gratuitamente
-            </spam>
+            </span>
           </div>
           <div className={"HomeFirstBlock__FreeItem"}>
             <span className="material-symbols-outlined HomeFirstBlock__FreeDoneIcon">
               done
             </span>
-            <spam className={"HomeFirstBlock__FreeDesc"}>
+            <span className={"HomeFirstBlock__FreeDesc"}>
               Não é necessário cartão de crédito
-            </spam>
+            </span>
           </div>
         </div>
       </div>

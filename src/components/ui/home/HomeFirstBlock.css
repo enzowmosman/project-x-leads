@@ -1,7 +1,13 @@
-.HomeFirstBlock__Wrapper {
+.HomeFirstBlock__Outer {
     background-color: #F2F4F6;
-    padding: 32px 10% 32px 10%;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.HomeFirstBlock__Wrapper {
+    padding: 32px 0 32px 0;
+    max-width: 1170px;
     height: 100%;
     display: flex;
     flex-direction: column;

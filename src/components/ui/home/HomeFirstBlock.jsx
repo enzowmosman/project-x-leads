@@ -1,4 +1,4 @@
-import "./HomeFirstBlock.css";
+import "./HomeBlock.css";
 import React from "react";
 
 import Temp1 from "../../../assets/temp1.jpeg";

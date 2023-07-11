@@ -63,11 +63,11 @@
 }
 
 .HomeFirstBlock__EmailInput {
-    padding: 5px 190px 5px 15px;
+    padding: 4px 140px 4px 12px;
     height: 46px;
     font-size: 16px;
     line-height: 34px;
-    width: 99%;
+    width: 100%;
     color: rgba(0,0,0,.75);
     border-radius: 6px;
     font-weight: 400;
@@ -83,7 +83,34 @@
 .HomeFirstBlock__Button {
     position: absolute;
     height: 46px;
-    width: 32%;
+    width: 34%;
     right: 0;
     text-align: center;
+}
+
+.HomeFirstBlock__FreeItem {
+    display: flex;
+    align-items: center;
+}
+
+.HomeFirstBlock__FreeContainer {
+    margin: 16px 0 16px 0;
+    gap: 18px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.HomeFirstBlock__FreeDoneIcon {
+    color: #52c41a;
+    font-size: 24px;
+    margin: 0 8px 0 8px;
+}
+
+.HomeFirstBlock__FreeDesc {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: #555;
 }

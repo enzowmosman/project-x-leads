@@ -1,4 +1,4 @@
-import "./HomeBlock.css";
+import "./HomeFirstBlock.css";
 import React from "react";
 
 import Temp1 from "../../../assets/temp1.jpeg";
@@ -28,7 +28,27 @@ export default function HomeFirstBlock() {
           </span>
           <div className={"HomeFirstBlock__ButtonInput"}>
             <input className={"HomeFirstBlock__EmailInput"} />
-            <Button className={"HomeFirstBlock__Button"}>{'Start now ->'}</Button>
+            <Button className={"HomeFirstBlock__Button"}>
+              {"Start now ->"}
+            </Button>
+          </div>
+        </div>
+        <div className={"HomeFirstBlock__FreeContainer"}>
+          <div className={"HomeFirstBlock__FreeItem"}>
+            <span className="material-symbols-outlined HomeFirstBlock__FreeDoneIcon">
+              done
+            </span>
+            <spam className={"HomeFirstBlock__FreeDesc"}>
+              Teste gratuitamente
+            </spam>
+          </div>
+          <div className={"HomeFirstBlock__FreeItem"}>
+            <span className="material-symbols-outlined HomeFirstBlock__FreeDoneIcon">
+              done
+            </span>
+            <spam className={"HomeFirstBlock__FreeDesc"}>
+              Não é necessário cartão de crédito
+            </spam>
           </div>
         </div>
       </div>

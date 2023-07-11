@@ -68,7 +68,7 @@
     font-size: 16px;
     line-height: 34px;
     width: 100%;
-    color: rgba(0,0,0,.75);
+    color: #333;
     border-radius: 6px;
     font-weight: 400;
     border: 2px solid #ddd;
@@ -76,14 +76,22 @@
     outline: 0;
 }
 
+.HomeFirstBlock__EmailInput:focus {
+    border: 2px solid #0f81f46b;
+}
+
+::placeholder {
+    color: #888 !important;
+}
+
 .HomeFirstBlock__ButtonInput {
     display: flex;
+    width: 450px;
 }
 
 .HomeFirstBlock__Button {
     position: absolute;
     height: 46px;
-    width: 34%;
     right: 0;
     text-align: center;
 }
@@ -105,7 +113,7 @@
 .HomeFirstBlock__FreeDoneIcon {
     color: #52c41a;
     font-size: 24px;
-    margin: 0 8px 0 8px;
+    margin-right: 8px;
 }
 
 .HomeFirstBlock__FreeDesc {

@@ -27,7 +27,7 @@ export default function HomeFirstBlock() {
             switch_access_shortcut
           </span>
           <div className={"HomeFirstBlock__ButtonInput"}>
-            <input className={"HomeFirstBlock__EmailInput"} />
+            <input type="text" placeholder="Seu melhor email" className={"HomeFirstBlock__EmailInput"} />
             <Button className={"HomeFirstBlock__Button"}>
               {"Start now ->"}
             </Button>

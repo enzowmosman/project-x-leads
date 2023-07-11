@@ -6,29 +6,51 @@ import Button from "../../input/Button.jsx";
 
 export default function HomeFirstBlock() {
   return (
-    <div className={"HomeFirstBlock__Wrapper"}>
-      <div className={`HomeFirstBlock__Image`}>
-        <img src={Temp1} />
-      </div>
-      <div className={"HomeFirstBlock__Container"}>
-        <span className={"HomeFirstBlock__Title"}>
-          Build dashboards and track performance from everywhere
-        </span>
-        <span className={"HomeFirstBlock__Desc"}>
-          Connect your data from any tool and track it from any device. No more
-          logging into dozens of different tools to understand performance — now
-          you and your team can easily connect your data, build and share
-          reports, monitor trends, and discover insights.
-        </span>
-      </div>
-      <div className={'HomeFirstBlock__ButtonContainer'}>
-        <span className="material-symbols-outlined HomeFirstBlock__IndicationIcon">
-          switch_access_shortcut
-        </span>
-          <div className={'HomeFirstBlock__ButtonInput'}>
-              <input className={'HomeFirstBlock__EmailInput'} />
-              <Button className={'HomeFirstBlock__Button'}>{`Start now ->`}</Button>
+    <div className={"HomeFirstBlock__Outer"}>
+      <div className={"HomeFirstBlock__Wrapper"}>
+        <div className={`HomeFirstBlock__Image`}>
+          <img src={Temp1} />
+        </div>
+        <div className={"HomeFirstBlock__Container"}>
+          <span className={"HomeFirstBlock__Title"}>
+            Build dashboards and track performance from everywhere
+          </span>
+          <span className={"HomeFirstBlock__Desc"}>
+            Connect your data from any tool and track it from any device. No
+            more logging into dozens of different tools to understand
+            performance — now you and your team can easily connect your data,
+            build and share reports, monitor trends, and discover insights.
+          </span>
+        </div>
+        <div className={"HomeFirstBlock__ButtonContainer"}>
+          <span className="material-symbols-outlined HomeFirstBlock__IndicationIcon">
+            switch_access_shortcut
+          </span>
+          <div className={"HomeFirstBlock__ButtonInput"}>
+            <input type="text" placeholder="Seu melhor email" className={"HomeFirstBlock__EmailInput"} />
+            <Button className={"HomeFirstBlock__Button"}>
+              {"Start now ->"}
+            </Button>
           </div>
+        </div>
+        <div className={"HomeFirstBlock__FreeContainer"}>
+          <div className={"HomeFirstBlock__FreeItem"}>
+            <span className="material-symbols-outlined HomeFirstBlock__FreeDoneIcon">
+              done
+            </span>
+            <span className={"HomeFirstBlock__FreeDesc"}>
+              Teste gratuitamente
+            </span>
+          </div>
+          <div className={"HomeFirstBlock__FreeItem"}>
+            <span className="material-symbols-outlined HomeFirstBlock__FreeDoneIcon">
+              done
+            </span>
+            <span className={"HomeFirstBlock__FreeDesc"}>
+              Não é necessário cartão de crédito
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,8 +1,14 @@
-.HomeFirstBlock__Wrapper {
+.HomeFirstBlock__Outer {
     background-color: #F2F4F6;
-    padding: 3% 10% 0 10%;
-    width: 100%;
-    height: 650px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.HomeFirstBlock__Wrapper {
+    padding: 32px 0 32px 0;
+    max-width: 1170px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,31 +26,29 @@
 .HomeFirstBlock__Container {
     display: flex;
     align-items: center;
+    margin: 32px 0 32px 0;
     justify-content: center;
-    margin-top: 12px;
     flex-direction: column;
     width: 80%;
 }
 
 .HomeFirstBlock__Title {
-    font-size: 65px;
-    line-height: 72px;
+    font-size: 64px;
+    line-height: 68px;
     font-weight: 800;
-    color: #2d3237;
+    color: #333;
     text-align: center;
     margin-bottom: 24px;
 }
 
 .HomeFirstBlock__Desc {
-    color: #8e929b;
+    color: #888;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 26px;
     text-align: center;
 }
 
 .HomeFirstBlock__ButtonContainer {
-    margin-top: 18px;
-    height: 100px;
     position: relative;
 }
 
@@ -52,33 +56,69 @@
     font-weight: 300;
     position: absolute;
     left: -68px;
-    top: -20px;
-    transform: rotate(143deg) scaleX(-1);
-    color: #8e929b;
+    top: -12px;
+    transform: rotate(136deg) scaleX(-1);
+    color: #888;
     font-size: 50px;
 }
 
 .HomeFirstBlock__EmailInput {
-    padding: 5px 190px 5px 15px;
+    padding: 4px 140px 4px 12px;
     height: 46px;
     font-size: 16px;
     line-height: 34px;
-    width: 99%;
-    color: rgba(0,0,0,.75);
+    width: 100%;
+    color: #333;
     border-radius: 6px;
     font-weight: 400;
-    border: 2px solid rgba(0,0,0,.25);
+    border: 2px solid #ddd;
+    background-color: #fff;
     outline: 0;
+}
+
+.HomeFirstBlock__EmailInput:focus {
+    border: 2px solid #0f81f46b;
+}
+
+::placeholder {
+    color: #888 !important;
 }
 
 .HomeFirstBlock__ButtonInput {
     display: flex;
+    width: 450px;
 }
 
 .HomeFirstBlock__Button {
     position: absolute;
     height: 46px;
-    width: 36%;
     right: 0;
     text-align: center;
+}
+
+.HomeFirstBlock__FreeItem {
+    display: flex;
+    align-items: center;
+}
+
+.HomeFirstBlock__FreeContainer {
+    margin: 16px 0 16px 0;
+    gap: 18px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.HomeFirstBlock__FreeDoneIcon {
+    color: #52c41a;
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.HomeFirstBlock__FreeDesc {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: #555;
 }

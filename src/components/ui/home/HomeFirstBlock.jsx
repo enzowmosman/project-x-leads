@@ -1,7 +1,7 @@
 import "./HomeFirstBlock.css";
 import React from "react";
 
-import Temp1 from "../../../assets/temp1.jpeg";
+import Temp1 from "../../../assets/image.png";
 import Button from "../../input/Button.jsx";
 
 export default function HomeFirstBlock() {
